@@ -1,7 +1,7 @@
 Comprehensive Python Cheatsheet
 ===============================
 
-[Forked from :](https://github.com/gto76/python-cheatsheet)
+[Forked from : gto76/python-cheatsheet]()
 
 
 Contents
