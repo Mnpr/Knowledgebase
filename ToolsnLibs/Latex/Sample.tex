@@ -1,0 +1,94 @@
+\documentclass[a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\tableofcontents
+
+\section{Section 1}
+This is Seciton 1
+
+\paragraph{Package} 
+Latex offers extended functionalities using packages  \\ usepackage[•]{•} | usepackage{}
+
+\subsection{Subsection 1}
+This is subsection 1
+
+\paragraph{Paragraph}
+This is a paragraph
+
+\subsection{Subsection 2}
+This is subsection 2
+
+\section{List}
+
+\subsection{Unordered List}
+This is an unordered list
+
+\begin{itemize}
+\item Item.
+\item Another Item.
+\end{itemize}
+
+\subsection{Ordered List}
+This is an ordered list
+
+\begin{enumerate}
+\item First Item.
+\item Second Item.
+\end{enumerate}
+
+\section{Figure}
+
+\subsection{Autoencoder}
+
+\begin{figure}[h]
+\caption{Autoencoder Data compression }
+\label{fig:whatever}
+\includegraphics[width=\linewidth]{autoencoder.png}
+\end{figure}
+
+\section{Table}
+
+\begin{table}[h!] % h -hrere, t- top, b - bottom, p - page, ! - Override
+
+\centering
+\caption{Table caption}
+\label{tab:table1}
+
+\begin{tabular}{l|c||r}
+1 & 2 & 3 \\
+	\hline
+a & b & c \\
+
+\end{tabular}
+\end{table}
+
+\section{Code}
+Inserting C code 
+
+\begin{verbatim}
+#include <iostream>
+int main()
+{
+  std::cout << "hello world!\n";
+  return 0;
+}
+\end{verbatim}
+
+Another method:
+
+\section{Footnote}
+
+Citation or Footnote 
+\footnote{\label{myfootnote}'$https://www.topbots.com/wp-content/uploads/2017/11/autoencoder_800px_web.png$'}.
+... (later on)
+I'm referring to myself 
+
+Reference
+
+\ref{myfootnote}
+
+\end{document}
