@@ -1,6 +1,6 @@
 # Counting
 
-- ## Numeric( 1 - 100 )
+## Numeric( 1 - 100 )
 
 | English | 中文( Zhōngwén ) | English | 中文( Zhōngwén )    |
 | ------- | -------------- | ------- | ----------------- |
