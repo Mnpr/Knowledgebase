@@ -229,28 +229,54 @@
 ## Week 3
 
 - Passion and work
-
-- Hidden talents
+  
+  - The Passion Trap
+  
+  - T : heavy skill vertical + complement horizontal 
+  
+  - $\pi$ : heavy skill supported by another skill 
 
 - Mindshifting
+  
+  - Well thought change and reachable goals
 
-- General competence vs Selective ignorance
+- General competence with Selective ignorance
+  
+  - Immersive learning 
 
 - The value of feeling like an imposter
+  
+  - Keeps mind open and open to self assessment 
+  
+  - Persistence and flexibility
 
 - Avoiding career ruts ans surviving career catastrophes
+  
+  - Societal trends relation to skill
 
 - Bad traits vs good traits
+  
+  - Dream -> Practical
 
 - Intelligence of Emotions
 
 ## Week 4
 
 - Keep learning
+  
+  - Exercise, Learning, new Environment = New neurons
 
 - MOOC Tips
+  
+  - Learning goals
+  
+  - Investigate work load ( Syllabus )
+  
+  - Discussion forums
 
 - Mentors in your life
+  
+  - Insights 
 
 - Read | Favourite author and books
 
