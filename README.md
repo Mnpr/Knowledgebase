@@ -1,4 +1,4 @@
-# Personal Learning Knowledgebase
+# Learning Knowledgebase
 
 ![](Img/kb.jpeg)
 
