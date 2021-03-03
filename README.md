@@ -1,6 +1,6 @@
 # Learning Knowledgebase
 
-![](Img/kb.jpeg)
+![](./kb.jpeg)
 
 Documented knowledgebase 
 
