@@ -12,8 +12,6 @@
 
 5. Probability distributions
 
-
-
 ### 1. Basic Probability
 
 - Probability is the likelihood of an event occurring
@@ -46,8 +44,6 @@ The expected value can be numerical, Boolean, categorical or other, depending on
 
 ![](assets/probability_rules.png)
 
-
-
 **Probability Definitons :**
 
 - A and B are mutually exclusive if $P(A\cap B) = 0$
@@ -69,8 +65,6 @@ $$
 $$
 
 - $0! = 1$
-
-
 
 ### 3. Bayesian Inference
 
@@ -100,15 +94,11 @@ $$
 
 - The two conditional probabilities possess different meanings even if they have equal values.
 
-
-
 **Probability Laws :**
 
 - Law of total probability
 
 - Bayes' Law( Theorem )
-
-
 
 **Law of total probability**
 
@@ -132,21 +122,15 @@ $$
 \boxed{P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}}
 $$
 
-
-
 ### 5. Probability Distributions
 
 The possible values of a variable can take and how frequent they occur.
-
-
 
 **Discrete Probability Distribution**
 
 ![](assets/discretePD.jpg)
 
 A discrete distribution has either a finite or a countably infinite number of possible values. That means you can enumerate or make a listing of all possible values, such as 1, 2, 3, 4, 5, 6 or 1, 2, 3, . ..
-
-
 
 **Continuous Probability Distributions**
 
@@ -168,8 +152,6 @@ Gives the probability that a discrete random variable takes on the value of x
 
 [PMF](https://i.stack.imgur.com/7FoIQ.png) Satisfies $p(x)\ge 0), \sum_x p(x) = 1$
 
-
-
 ***Cumulative Distribution Function:***
 
 Gives the probability that a random variable is less than or equal to x.
@@ -183,8 +165,6 @@ The [CDF](http://probabilitycourse.com/images/chapter3/CDF-geometric_b.png) is a
 $$
 \boxed{F_X(x) \to 0 as x \to-\infty and F_X(x) \to 1 as x \to \infty }
 $$
-
-
 
 **Discrete Distributions**
 
@@ -209,5 +189,3 @@ $$
 - The Exponential Dist.
 
 - The Logistic Dist.
-
-
