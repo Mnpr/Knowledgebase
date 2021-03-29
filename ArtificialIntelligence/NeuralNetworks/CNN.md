@@ -68,8 +68,6 @@ from keras.datasets import mnist
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 ```
 
-
-
 2\. View one of the images using the `plt.imshow` command, and check its size using the `.shape` function, to understand what the dataset looks like. Try this on several images. As you will see, all the MNIST images are uniformly 28 x 28 pixels in size and contain handwritten digits.
 
 ```python
@@ -78,16 +76,12 @@ plt.imshow(X_train[0])
 X_train[0].shape
 ```
 
-
-
 3\. Reshape the two sets of images, `X_train` and `X_test`, to the shape expected by the CNN model. The Keras `reshape` function takes four arguments: number of training images, pixel size, and image depth—use 1 to indicate a grayscale image.
 
 ```python
 X_train = X_train.reshape(60000,28,28,1) 
 X_test = X_test.reshape(10000,28,28,1)
 ```
-
-
 
 4\. Next, you’ll need to ‘one-hot-encode’ the target variable—create a column for each classification category, with each column containing binary values indicating if the current image belongs to that category or not. Because we are classifying digits, there will be 10 columns for digits 0-9, and according to the classification decision, one of the columns will have a 1 (e.g. the column for the digit 3) and the rest will be 0.
 
@@ -100,8 +94,6 @@ y_test = to_categorical(y_test)
 y_train[0]
 ```
 
-
-
 5\. Create a model, using the `Sequential` model type, which lets you build a model by adding on one layer at a time.
 
 ```python
@@ -109,8 +101,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Flatten 
 model = Sequential()
 ```
-
-
 
 6\. Add model layers: the first two layers are Conv2D—2-dimensional convolutional layers These are convolution layers that deal with the input images, which are seen as 2-dimensional matrices. The `Conv2D` function takes four parameters:
 
@@ -123,8 +113,6 @@ model = Sequential()
 model.add(Conv2D(64, kernel_size=3, activation=’relu’, input_shape=(28,28,1))) 
 model.add(Conv2D(32, kernel_size=3, activation=’relu’))
 ```
-
-
 
 **Note:** Each of the convolution layers reduces the depth, width and height of each feature, this is equivalent to the pooling/downsampling stage in the CNN model. The formula for calculating the output size for any given conv layer is:  
 O = ((W-K+2P)/S)+1 where O is the output height/length, W is the input height/length, K is the filter size, P is the padding, and S is the stride.
@@ -228,8 +216,6 @@ train\_dataset = torchvision.datasets.MNIST(root=DATA\_PATH, train=True, transfo
 test\_dataset = torchvision.datasets.MNIST(root=DATA\_PATH, train=False, transform=trans)
 ```
 
-
-
 5\. Load the train and test datasets into the data loader. A data loader can be used as an iterator – to extract the data, just use a standard Python iterator such as `enumerate`. The `DataLoader` function takes three arguments:
 
 * The data set you wish to load
@@ -240,8 +226,6 @@ test\_dataset = torchvision.datasets.MNIST(root=DATA\_PATH, train=False, transfo
 train\_loader = DataLoader(dataset=train\_dataset, batch\_size=batch\_size, shuffle=True)
 test\_loader = DataLoader(dataset=test\_dataset, batch\_size=batch\_size, shuffle=False)
 ```
-
-
 
 6\. Create the CNN model by initializing the `nn.Module` class. This is a PyTorch class which has everything you need to build a neural network. It also provides recursive operations, ways of parallelizing work and moving it to a GPU or back to a CPU, and more. We’ll create the following neural layers:
 
@@ -271,8 +255,6 @@ self.fc1 = nn.Linear(7 \* 7 \* 64, 1000)
 self.fc2 = nn.Linear(1000, 10)
 ```
 
-
-
 7\. Define the forward pass. To customize forward pass functionality, call this function “forward”, to override the base forward function in `nn.Module`. The second argument x is one batch of data, which is fed into the first neural layer (`layer1`), then to the next layer, and so on. After `layer2`, we reshape the data, flattening it from 7 x 7 x 64 into 3164 x 1.
 
 ```python
@@ -285,8 +267,6 @@ out = self.fc1(out)
 out = self.fc2(out)
 return out
 ```
-
-
 
 8\. Define training parameters by creating a `ConvNet` object and defining:
 
@@ -313,8 +293,6 @@ total\_step = len(train\_loader)
 loss\_list = \[\]
 acc\_list = \[\]for epoch in range(num\_epochs):for i, (images, labels) in enumerate(train\_loader):outputs = model(images)loss = criterion(outputs, labels)loss\_list.append(loss.item())optimizer.zero\_grad()loss.backward()optimizer.step()
 ```
-
-
 
 10\. Track accuracy (within the same loop) by:
 
@@ -348,8 +326,6 @@ outputs = model(images)
 total += labels.size(0)
 correct += (predicted == labels).sum().item()print('Test Accuracy of the model on the 10000 test images: {} %'.format((correct / total) \* 100))torch.save(model.state\_dict(), MODEL\_STORE\_PATH + 'conv\_net\_model.ckpt')
 ```
-
-
 
 Convolutional Neural Networks in the Real World
 -----------------------------------------------
