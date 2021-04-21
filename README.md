@@ -1,159 +1,19 @@
-# Learning Knowledgebase
+# Documented knowledgebase
 
 ![](./kb.jpeg)
 
-Documented knowledgebase 
+### Contents
 
-## 1. AI (ML, DS, DL)
+1. [[ AI ( ML | DS ) ]](https://github.com/Mnpr/KnowledgeBase/tree/master/ArtificialIntelligence)
 
-- [ ] Classical Machine Learning Algorithms
-  
-  - [ ] Support Vector Machines
-  
-  - [ ] Perceptrons
-  
-  - [ ] Decision Trees
-  
-  - [ ] Bayesian Decision Theory
-  
-  - [ ] Parameter Estimation
-    
-    - Maximum-Likelihood Estimation
-    - Bayes Learning
-  
-  - [ ] Non-Parametric Techniques
-    
-    - Parzen windows
-    - Nearest Neighor Classifiers 
-  
-  - [ ] Bayesian Classifies
-  
-  - [ ] Linear | Non-Linear | Non-Parametric Regressions
-  
-  - [ ] Clustering ( K-Means | Heirarchical )
-  
-  - [ ] Density Estimation
-  
-  - [ ] Hidden Markov model
-  
-  - [ ] Overfitting / Underfitting
-  
-  - [ ] Dimensionality Reduction ( PCA | LDA | ISOMAP | t-SNE etc.)
+2. [[ Programming ]](https://github.com/Mnpr/KnowledgeBase/tree/master/Programming)
 
-- [ ] Neural Networks
-  
-  - [ ] Multi-Layer Perceptrons
-  
-  - [ ] Activation Functions
-  
-  - [ ] Backpropagation
-  
-  - [ ] Convolutional Neural Network
-  
-  - [ ] Recurrent Neural Network
-  
-  - [ ] Long Short Term Memory
-  
-  - [ ] Hyperparameter Optimization
-  
-  - [ ] Auto Encoders
-  
-  - [ ] Generative Adverserial Networks
-  
-  - [ ] Transformers
+3. [[ Languages ]](https://github.com/Mnpr/KnowledgeBase/tree/master/Languages)
 
-- [ ] Applications
-  
-  - [ ] Business Analytics
-  
-  - [ ] Computer Vision
-  
-  - [ ] Speech Recognition | Synthesis 
-  
-  - [ ] Natural Language Processing
-  
-  - [ ] Time Series Analysis | Forecasting
-  
-  - [ ] Medical Assistance
-  
-  - [ ] Image | Music Generation
+4. [[ Mathematics ]](https://github.com/Mnpr/KnowledgeBase/tree/master/Mathematics)
 
-## 2. Programming
+5. [[ Tools | Libraries | Frameworks ]](https://github.com/Mnpr/KnowledgeBase/tree/master/ToolsnLibs)
 
-- [x] Python Docs
-
-- [ ] C++
-
-- [ ] JavaScript | TypeScript
-
-- [ ] CSS3 | SCSS
-
-- [x] HTML5
-
-- [ ] Blockchain
-
-- [ ] Elm | Haskell
-
-- [ ] PostgreSQL
-
-- [ ] MongoDB
-
-## 3. Languages
-
-- [ ] Deutsch
-
-- [ ] 中文( Zhōngwén )
-
-## 4. Mathematics
-
-- [x] Probability
-
-- [ ] Calculus
-
-- [ ] Linear Algebra
-
-- [ ] Statistics
-
-- [ ] Dynamical Systems
-
-## 5. Tools and Libraries
-
-- [ ] Tensorflow
-
-- [ ] Pytorch
-
-- [ ] Numpy
-
-- [ ] Pandas
-
-- [ ] Matplotlib | Seaborn | ...
-
-- [ ] R
-
-- [ ] Angular | Vue | React
-
-- [x] Linux CLI
-
-- [ ] Docker
-
-- [x] Latex
-
-- [x] Markdown
-
-- [ ] Version Control
-
-## 6. Interests | Hobbies | Being
-
-- [ ] E-Music Generation
-
-- [x] Mind Shift
-
-- [ ] Music Theory
-
-- [ ] Pianoless | Journaler
+6. [[ Interests | Hobbies | Being ]](https://github.com/Mnpr/KnowledgeBase/tree/master/Being)
 
 ***
-
-**References:**
-
-[1. ]  
