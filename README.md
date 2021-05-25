@@ -1,19 +1,130 @@
-# Documented knowledgebase
+# Personal Knowledgebase Index
 
 ![](./kb.jpeg)
 
-### Contents
+## Computer Science
 
-1. [[ AI ( ML | DS ) ]](https://github.com/Mnpr/KnowledgeBase/tree/master/ArtificialIntelligence)
+- Artificial Intelligence
+  
+  - Classical/ Statistical Machine Learning
+  
+  - Computer Vision
+  
+  - Natural Language Processing/ Understanding
 
-2. [[ Programming ]](https://github.com/Mnpr/KnowledgeBase/tree/master/Programming)
+  - Data Science and Analytics 
+  
+  - Libraries and Tools
 
-3. [[ Languages ]](https://github.com/Mnpr/KnowledgeBase/tree/master/Languages)
+- Dev-Ops | ML-Ops ( Cloud )
 
-4. [[ Mathematics ]](https://github.com/Mnpr/KnowledgeBase/tree/master/Mathematics)
+- Data Structures, Algorithms, and Theory of Computation
 
-5. [[ Tools | Libraries | Frameworks ]](https://github.com/Mnpr/KnowledgeBase/tree/master/ToolsnLibs)
+- Graphics, Hardware, Networks, and Security
 
-6. [[ Interests | Hobbies | Being ]](https://github.com/Mnpr/KnowledgeBase/tree/master/Being)
+- Database Management Systems
 
-***
+- Software Engineering
+
+- Electronics and Communication
+
+- Web Engineering
+
+## Programming
+
+- Python | R
+
+- HTML5 , CSS3, and TypeScript [ Angular ]
+
+- C / C++
+
+- Elm/ Haskell
+
+- Databases [ SQL/ NOSQL ]
+
+- Libraries and Tools
+
+- Bash
+
+## Tools
+
+- LaTeX
+
+- Markdown
+
+- Docker | K8s
+
+- Linux [ Debian-based ]
+
+- Everyday Softwares
+
+## Physics
+
+- Classical Mechanics 
+
+- Optics and Acoustics
+
+- Quantum Mechanics
+
+- Thermodynamics
+
+- Electromagnetism
+
+- Relativity
+
+## Chemistry
+
+- Physical Chemistry
+
+- Organic & Inorganic
+
+## Biology
+
+- Neuro Science
+
+- Botany | Zoology
+
+## Mathematics
+
+- Discrete Mathematics
+
+- Number and Graph Theory
+
+- Probability and Statistics
+
+- Linear Algebra
+
+- Calculus
+
+## Management and Economics
+
+- Economics and Finance
+
+- IT Project Management
+
+- Business Administration
+
+## Humanities
+
+- Music
+  
+  - Theory and Composition
+
+  - Electronic Music Production 
+
+- Philosophy
+  
+  - Stoicism
+  
+  - Taoism
+  
+  - Buddhism
+
+- Languages
+  
+  - Deutsch
+  
+  - 中文
+  
+  - 日本語
+
